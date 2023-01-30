@@ -7,6 +7,8 @@ export const Container = styled.div`
   text-align: center;
   display: flex;
   justify-content: center;
+  width: 700px;
+  margin: 0 auto;
 `;
 
 export const Button = styled.button`
@@ -27,6 +29,6 @@ export const Button = styled.button`
   }
 
   &:not(:last-child) {
-    margin-right: 5px;
+    margin-right: 20px;
   }
 `;
